@@ -1,0 +1,13 @@
+[ignore]
+# <PROJECT_ROOT>/node_modules/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+# all=true # node_modulesでエラーがでる。またignoreに追加したとしてもライブラリーを利用した際にエラーが出てしまう。
+
+[strict]
